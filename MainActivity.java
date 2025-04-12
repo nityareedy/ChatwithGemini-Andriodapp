@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private ScrollView scrollView;
     private LinearLayout messageContainer;
 
-    private static final String API_KEY = "AIzaSyC7HYFAZvRpt9IuQdBylGmS5t0hUbWBIuM";
-    private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
+    private static final String API_KEY = "";
+    private static final String API_URL = "" + API_KEY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
